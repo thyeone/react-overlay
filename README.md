@@ -1,6 +1,7 @@
 # react-overlay
 
 React에서 Overlay를 사용할 때 필요한 컴포넌트와 hook이 구현된 라이브러리입니다.
+업데이트 될 예정이나 드래그, 컨테이너 사이즈 등 미구현된 부분이 많습니다.
 
 ## Getting Started
 
