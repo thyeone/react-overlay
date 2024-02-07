@@ -12,7 +12,7 @@ npm install @thyeone/react-overlay
 ### Peer dependencies
 
 ```sh
-npm i react react-dom framer-motion
+npm install react react-dom framer-motion
 ```
 
 ## Usage
@@ -20,6 +20,7 @@ npm i react react-dom framer-motion
 ```tsx
 const Example = () => {
   const { open } = useOverlay();
+
   return (
     <OverlayProvider>
       <button
@@ -44,7 +45,7 @@ const MyBottomSheet = ({ isOpen, onClose }) => {
     <AnimatePortal isOpen={isOpen}>
       <BottomSheet>
         <button onClick={onClose}>Close</button>
-        Here Is Bottom Sheet Content
+        Here Is The Bottom Sheet Content
       </BottomSheet>
     </AnimatePortal>
   );
@@ -57,7 +58,7 @@ export default Example;
 
 `OverlayProvider`
 
-Overlay를 사용하기 위한 Provider입니다. 루트 컴포넌트에 `<OverlayProvider />`를 감싸주세요.
+Overlay를 사용하기 위한 Provider입니다. 루트 컴포넌트에 `<OverlayProvider />` 를 감싸주세요.
 
 `Portal`
 
